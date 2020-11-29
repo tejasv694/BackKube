@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: httpd-pod
+spec:
+  containers:
+  - name: httpd-container
+    image: iamdevopstrainer/httpd:v1
+    ports:
+    - containerPort: 80
+
